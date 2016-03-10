@@ -1,0 +1,9 @@
+img.media-image, div.Gallery-content
+{
+    width:auto !important;
+    height:auto !important;
+}
+div.Gallery-closeTarget
+{
+    position:fixed !important;
+}
