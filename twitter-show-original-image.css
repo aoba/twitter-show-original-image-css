@@ -2,22 +2,18 @@ div.Gallery-closeTarget
 {
     position:fixed !important;
 }
-div.Gallery-content:before
-{
-    content: '';
-    height: 100%;
-    vertical-align: middle;
-}
-div.Gallery-content
-{
-    width: auto !important;
-}
-div.Gallery-media
-{
-    overflow: scroll !important;
-}
 img.media-image
 {
     width:auto !important;
     height:auto !important;
+}
+div.Gallery-media
+{
+    overflow: scroll !important;
+    width: auto !important;
+}
+div.Gallery-content
+{
+    width: inherit !important;
+    max-width: 90%;
 }
