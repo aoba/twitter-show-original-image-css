@@ -1,9 +1,24 @@
-img.media-image, div.Gallery-content
-{
-    width:auto !important;
-    height:auto !important;
-}
 div.Gallery-closeTarget
 {
     position:fixed !important;
+}
+div.Gallery-media
+{
+    overflow: scroll !important;
+}
+div.Gallery-content
+{
+    width:auto !important;
+    height:auto !important;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 10px 50px 50px 50px;
+}
+img.media-image
+{
+    width:auto !important;
+    height:auto !important;
 }
