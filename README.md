@@ -1,8 +1,6 @@
 twitter-show-original-image-css
 ====
 
-Overview
-
 ## Description
 
 "twitter-show-original-image-css" is a user stylesheet for twitter.com.  
