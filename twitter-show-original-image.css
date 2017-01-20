@@ -1,19 +1,9 @@
-div.Gallery-closeTarget
-{
-    position:fixed !important;
-}
 img.media-image
 {
-    width:auto !important;
-    height:auto !important;
+    width: 100% !important;
+    height: auto !important;
 }
-div.Gallery-media
+div.Gallery-closeTarget
 {
-    overflow: scroll !important;
-    width: auto !important;
-}
-div.Gallery-content
-{
-    width: inherit !important;
-    max-width: 90%;
+    position: fixed !important;
 }
